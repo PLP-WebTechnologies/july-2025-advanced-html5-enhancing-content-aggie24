@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <h2>LISTS</h2>
+    <h3>Defination Lists</h3>
+    <dl>
+        <dt>CRE</dt>
+        <dd>Christian Religious Education</dd>
+        <dt>SST</dt>
+        <dd>Social Studies</dd>
+        <dt>HMSc</dt>
+        <dd>Home Science</dd>
+    </dl>
+    <h3>Nested Lists</h3>
+    <ol>
+        <li>Cakes</li>
+        <ol type="i">
+            <li>Fruit cake</li>
+            <li>Banana cake</li>
+            <li>Spone cake</li>
+        </ol>
+        <li>Juices</li>
+        <ul type="circle">
+            <li>Passion juice</li>
+            <li>Orange juice</li>
+            <li>Mango juice</li>
+        </ul>
+    </ol>
+
+    <h2>MULTIMEDIA</h2>
+    <H3>Image</H3>
+    <img src="https://images.pexels.com/photos/10793922/pexels-photo-10793922.jpeg"
+    alt="a beautiful image"
+     width="400" height="400">
+     <h3>Video</h3>
+     <video width="300" height="300" controls>
+     <source src="https://videos.pexels.com/video-files/1448735/1448735-uhd_2732_1440_24fps.mp4" type="video/mp4">
+     Your video does not support video playback
+     </video>
+     <h3>Audio</h3>
+     <audio controls>
+        <source src="">
+        Your browser does not support audio playback
+     </audio>
+
+     <h2>TABLES</h2>
+     <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>School</th>
+                <th>Course</th>
+                <th>place</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Agnes</td>
+                <td>SEKU</td>
+                <td>Education</td>
+                <td>Mombasa</td>
+            </tr>
+            <tr>
+                <td>Chebet</td>
+                <td>UON</td>
+                <td>Engineering</td>
+                <td>Nandi</td>
+            </tr>
+            <tr>
+                <td>Debora</td>
+                <td>Pwani</td>
+                <td>Journalism</td>
+                <td>Nairobi</td>
+            <tr>
+                <td>Kabeyu</td>
+                <td>KU</td>
+                <td>Machakos</td>
+                <td>Kitui</td>
+            </tr>
+        </tbody>
+     </table>
+     <h2>FORMS</h2>
+     <form action="https://example.com/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required  minlength="8" maxlength="20">
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="Male" name="gender" value="Male">Male
+        <input type="radio" id="Female" name="gender" value="Female">Female 
+        <br><br>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">--Select Country--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uk">UK</option>
+            <option value="Rwanda">Rwanda</option>
+        </select>    
+        <br><br>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+     </form>
+</body>
+</html>
